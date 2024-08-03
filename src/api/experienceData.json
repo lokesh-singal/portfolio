@@ -2,14 +2,14 @@
   {
     "fact": "/*Image size should be 500*500*/  /*and in png form*/",
 
-    "img_url": "/images/company/gty-web-logo.png",
+    "img_url": "./images/company/gty-web-logo.png",
     "company_name": "Grey to yellow",
     "position": "Frontend Developer Intern",
     "start_date": "January 2024",
     "end_date": "April 2024"
   },
   {
-    "img_url": "/images/company/maa-web-logo.png",
+    "img_url": "./images/company/maa-web-logo.png",
     "company_name": "Maa web technologies",
     "position": "Frontend Developer Intern",
     "start_date": "September 2023",
