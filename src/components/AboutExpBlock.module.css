@@ -1,0 +1,41 @@
+.outer {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(203 213 225);
+}
+
+.img {
+    border-radius: .75rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    color: transparent;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: rgb(30 41 59);
+}
+
+.position {
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+    color: rgb(51 65 85);
+}
+
+.date {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(100 116 139);
+    line-height: 1.25rem;
+    letter-spacing: -.025em;
+    margin-top: 0.9rem;
+}

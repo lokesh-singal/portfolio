@@ -1,0 +1,24 @@
+.section-projects {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(203 213 225);
+}
+
+.p {
+    color: rgb(51 65 85);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+}

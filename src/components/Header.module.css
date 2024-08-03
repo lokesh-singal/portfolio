@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0 4rem 0;
+}
+
+.navbar a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.inner-nav {
+    display: flex;
+    gap: 3rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 2rem 0 4rem 0;
+    }
+
+    .navbar a {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .inner-nav {
+        gap: 1rem;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1200px) {}

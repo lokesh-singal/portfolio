@@ -1,0 +1,36 @@
+.section-contact {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(203 213 225);
+}
+
+.contact {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.flex h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    letter-spacing: -.025em;
+}
+
+.flex a {
+    text-decoration: none;
+    color: rgb(51 65 85);
+}
+
+
+/* Grid */
+.contact-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
