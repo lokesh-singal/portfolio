@@ -40,7 +40,7 @@ export const About = () => {
             target="blank"
           >
             <p>
-              View resume
+              View Resume
               <FaDownload
                 style={{
                   marginLeft: "8px",
