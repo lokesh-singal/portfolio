@@ -1,9 +1,17 @@
+// import { useEffect } from "react";
 import data from "../api/experienceData.json";
 import styles from "./About.module.css";
 import { AboutExpBlock } from "./AboutExpBlock";
 import { InnerHeader } from "./InnerHeader";
+import { FaDownload } from "react-icons/fa6";
 
 export const About = () => {
+  // const url =
+  //   "https://drive.google.com/file/d/1JTaKf0ew0euVyepR42XcMF1NVBgNzgtW/view?usp=drive_link";
+  // useEffect(() => {
+  //   url;
+  // }, []);
+
   return (
     <>
       <InnerHeader>About</InnerHeader>
@@ -26,6 +34,25 @@ export const About = () => {
           feel free to reach out if you'd like to discuss how we can work
           together.
         </p>
+        <div className={styles.btn}>
+          <a
+            href="https://drive.google.com/file/d/1JTaKf0ew0euVyepR42XcMF1NVBgNzgtW/view?usp=drive_link"
+            target="blank"
+          >
+            <p>
+              View resume
+              <FaDownload
+                style={{
+                  marginLeft: "8px",
+                  fontSize: "15px",
+                  position: "relative",
+                  top: "3px",
+                  backgroundColor: "transparent",
+                }}
+              />
+            </p>
+          </a>
+        </div>
       </section>
       <section className={styles["section-about-2"]}>
         <h1 className={styles["exp-head"]}>Experience</h1>
