@@ -1,0 +1,11 @@
+[
+  {
+    "fact": "/*Image size should be 450*240 and in png form*/",
+
+    "id": 4,
+    "img_url": "./images/projects/expence-tracker.png",
+    "name": "Expense Tracker",
+    "description": "Easily track expenses, manage budgets, and visualize spending habits efficiently.",
+    "live_url": "https://lokesh-singal.github.io/expense-tracker/"
+  }
+]

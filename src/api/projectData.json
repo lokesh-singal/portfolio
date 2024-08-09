@@ -1,32 +1,30 @@
 [
   {
-    "fact": "/*Image size should be 450*240 and in png form*/",
-
     "id": 1,
+    "img_url": "./images/projects/gemini.png",
+    "name": "Gemini Clone",
+    "description": "Introducing Gemini Clone, a robust and efficient clone of the original Gemini AI",
+    "live_url": "https://lokesh-singal.github.io/gemini-clone/"
+  },
+  {
+    "id": 2,
     "img_url": "./images/projects/pokemon.png",
     "name": "PokéBase",
     "description": "Comprehensive Pokemon database showcasing abilities, special powers, and detailed data.",
     "live_url": "https://lokesh-singal.github.io/pokebase/"
   },
   {
-    "id": 2,
+    "id": 3,
     "img_url": "./images/projects/weatherApi.png",
     "name": "Weather API",
     "description": "A web app to check real-time weather updates for any location globally.",
     "live_url": "https://lokesh-singal.github.io/weatherAPI/"
   },
   {
-    "id": 3,
+    "id": 4,
     "img_url": "./images/projects/todo.png",
     "name": "Todo App",
     "description": "Organize tasks and boost productivity with this sleek, intuitive to-do app.",
     "live_url": "https://lokesh-singal.github.io/react-todo/"
-  },
-  {
-    "id": 4,
-    "img_url": "./images/projects/expence-tracker.png",
-    "name": "Expense Tracker",
-    "description": "Easily track expenses, manage budgets, and visualize spending habits efficiently.",
-    "live_url": "https://lokesh-singal.github.io/expense-tracker/"
   }
 ]
