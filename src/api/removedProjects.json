@@ -7,5 +7,12 @@
     "name": "Expense Tracker",
     "description": "Easily track expenses, manage budgets, and visualize spending habits efficiently.",
     "live_url": "https://lokesh-singal.github.io/expense-tracker/"
+  },
+  {
+    "id": 4,
+    "img_url": "./images/projects/weatherApi.png",
+    "name": "Weather API",
+    "description": "A web app to check real-time weather updates for any location globally.",
+    "live_url": "https://lokesh-singal.github.io/weatherAPI/"
   }
 ]
