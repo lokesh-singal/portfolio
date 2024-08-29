@@ -14,5 +14,12 @@
     "name": "Weather API",
     "description": "A web app to check real-time weather updates for any location globally.",
     "live_url": "https://lokesh-singal.github.io/weatherAPI/"
+  },
+  {
+    "id": 2,
+    "img_url": "./images/projects/gemini.png",
+    "name": "Gemini Clone",
+    "description": "Introducing Gemini Clone, a robust and efficient clone of the original Gemini AI",
+    "live_url": "https://lokesh-singal.github.io/gemini-clone/"
   }
 ]

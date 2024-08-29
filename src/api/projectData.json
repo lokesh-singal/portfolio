@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
+    "img_url": "./images/projects/brand-page.png",
+    "name": "Product Page",
+    "description": "Built clone of a leading e-commerce brand's product page with cutting-edge interactivity.",
+    "live_url": "https://lokesh-singal.github.io/gemlay-product-page/"
+  },
+  {
+    "id": 2,
     "img_url": "./images/projects/cryptoplace.png",
     "name": "Cryptoplace",
     "description": "A real-time crypto market dashboard that displays top cryptocurrencies using API",
     "live_url": "https://lokesh-singal.github.io/cryptoplace/"
-  },
-  {
-    "id": 2,
-    "img_url": "./images/projects/gemini.png",
-    "name": "Gemini Clone",
-    "description": "Introducing Gemini Clone, a robust and efficient clone of the original Gemini AI",
-    "live_url": "https://lokesh-singal.github.io/gemini-clone/"
   },
   {
     "id": 3,
